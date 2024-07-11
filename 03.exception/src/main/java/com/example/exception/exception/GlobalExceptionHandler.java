@@ -7,6 +7,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+/**
+ * 예측하지 못한 Exception에 대해 글로벌 예외처리해주는 것이 필수
+ * 이런 경우에 500에러를 발생시켜 서버 개발자가 무슨 문제인지 파악하게 해야 한다.
+ */
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
