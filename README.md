@@ -12,7 +12,7 @@
   Custom Annotation : @Pattern을 이용한 휴대폰 번호 정규식 대신 추후 재사용을 위해 어노테이션 생성
 * memorydb : ArrayList, Interface를 활용하여 Spring Data JPA와 비슷하게 구현
 * docker : docker 환경에서 mysql 실행
-* jpa : memorydb -> jpa 수정, jpql, nativeQuery 사용
+* jpa : memorydb -> jpa 변환, jpql, nativeQuery 사용
 * simple-board : 게시판 설계, ERD 설계, Pagination, Converter(Entity -> Dto), CRUD 구현
 * filter, intepceptor : 원본 데이터 확인을 위해 filter, 인증 및 인가를 위해 interceptor 사용
 * update-simple-board : 반복되는 CRUD 개선을 위해 추상화(인터페이스, 추상 클래스로 변환) 실시
