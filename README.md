@@ -7,7 +7,7 @@
    
 ### 구현 기능 목록
 * REST API : HTTP Method, HTTP 상태 코드, REST 정의, Builder 패턴, Camel -> Snake case
-* Exception : @ControllerAdvice, @ExceptionHandler -> GlobalExceptionHandler 필수
+* Exception : @ControllerAdvice, @ExceptionHandler -> GlobalExceptionHandler 처리 필수
 * Validation : Bean Validation, Custom Annotation -> ConstraintValidator로 검증   
   Custom Annotation : @Pattern을 이용한 휴대폰 번호 정규식 대신 추후 재사용을 위해 어노테이션 생성
 * memorydb : ArrayList, Interface를 활용하여 Spring Data JPA와 비슷하게 구현
